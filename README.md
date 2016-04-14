@@ -1,2 +1,2 @@
 # LJXPhotoAlbum
-封装UIImagePickerController
+封装相册选择器UIImagePickerController
