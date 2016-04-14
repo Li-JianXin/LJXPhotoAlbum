@@ -18,11 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    _photoAlbum = [[LJXPhotoAlbum alloc]init];
+    // 实例化LJXPhotoAlbum
+    _photoAlbum = [[LJXPhotoAlbum alloc] init];
 }
 
 - (IBAction)takePhotoClick:(id)sender {
+    // 调用getPhotoAlbumOrTakeAPhotoWithController方法
     [_photoAlbum getPhotoAlbumOrTakeAPhotoWithController:self andWithBlock:^(UIImage *image) {
         self.imageView.image = image;
     }];

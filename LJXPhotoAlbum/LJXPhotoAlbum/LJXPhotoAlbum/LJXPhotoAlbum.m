@@ -37,15 +37,12 @@
     self.viewController = viewController;
     if (IOS8) {
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"图片" message:@"选择" preferredStyle:UIAlertControllerStyleActionSheet];
-        
         UIAlertAction *photoAlbumAction = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             [self getAlertActionType:1];
         }];
-        
         UIAlertAction *cemeraAction = [UIAlertAction actionWithTitle:@"相机" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             [self getAlertActionType:2];
         }];
-        
         UIAlertAction *cancleAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
             [self getAlertActionType:0];
         }];
@@ -128,21 +125,15 @@
         }
     }
     [self creatUIImagePickerControllerWithAlertActionType:sourceType];
-    
-    
 }
 
 
 #pragma mark -  创建ImagePickerController
 - (void)creatUIImagePickerControllerWithAlertActionType:(NSInteger)type {
     NSInteger sourceType = type;
-    
     if (sourceType == UIImagePickerControllerSourceTypeCamera) {
-        
         if (![self AVAuthorizationStatusIsGranted]) {
-            
             if (IOS8) {
-                
                 UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"相机未授权" message:@"请到设置-隐私-相机中修改" preferredStyle:UIAlertControllerStyleAlert];
                 UIAlertAction *comfirmAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                     return;
@@ -155,9 +146,7 @@
                 [alert show];
                 return;
             }
-            
         }
-        
     }
     
     self.picker = [[UIImagePickerController alloc] init];
@@ -216,7 +205,6 @@
             break;
     }
     return isGranted;
-    
 }
 
 #pragma mark - UIImagePickerControllerDelegate
