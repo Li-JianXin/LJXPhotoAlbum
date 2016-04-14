@@ -7,21 +7,25 @@
 //
 
 #import "ViewController.h"
+#import "LJXPhotoAlbum.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (nonatomic, strong) LJXPhotoAlbum      *photoAlbum;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _photoAlbum = [[LJXPhotoAlbum alloc]init];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)takePhotoClick:(id)sender {
+    [_photoAlbum getPhotoAlbumOrTakeAPhotoWithController:self andWithBlock:^(UIImage *image) {
+        self.imageView.image = image;
+    }];
 }
 
 @end

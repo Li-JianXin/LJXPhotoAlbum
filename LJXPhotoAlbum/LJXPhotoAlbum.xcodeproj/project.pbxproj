@@ -15,6 +15,7 @@
 		5EC61F111CBF3EAB0083CF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC61F0F1CBF3EAB0083CF9C /* LaunchScreen.storyboard */; };
 		5EC61F1C1CBF3EAB0083CF9C /* LJXPhotoAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC61F1B1CBF3EAB0083CF9C /* LJXPhotoAlbumTests.m */; };
 		5EC61F271CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC61F261CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.m */; };
+		5EC61F371CBF41FB0083CF9C /* LJXPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC61F361CBF41FB0083CF9C /* LJXPhotoAlbum.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5EC61F221CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJXPhotoAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC61F261CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXPhotoAlbumUITests.m; sourceTree = "<group>"; };
 		5EC61F281CBF3EAB0083CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC61F351CBF41FB0083CF9C /* LJXPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJXPhotoAlbum.h; sourceTree = "<group>"; };
+		5EC61F361CBF41FB0083CF9C /* LJXPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJXPhotoAlbum.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5EC61F001CBF3EAB0083CF9C /* LJXPhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				5EC61F341CBF41C60083CF9C /* LJXPhotoAlbum */,
 				5EC61F041CBF3EAB0083CF9C /* AppDelegate.h */,
 				5EC61F051CBF3EAB0083CF9C /* AppDelegate.m */,
 				5EC61F071CBF3EAB0083CF9C /* ViewController.h */,
@@ -138,6 +142,15 @@
 				5EC61F281CBF3EAB0083CF9C /* Info.plist */,
 			);
 			path = LJXPhotoAlbumUITests;
+			sourceTree = "<group>";
+		};
+		5EC61F341CBF41C60083CF9C /* LJXPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5EC61F351CBF41FB0083CF9C /* LJXPhotoAlbum.h */,
+				5EC61F361CBF41FB0083CF9C /* LJXPhotoAlbum.m */,
+			);
+			path = LJXPhotoAlbum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				5EC61F091CBF3EAB0083CF9C /* ViewController.m in Sources */,
 				5EC61F061CBF3EAB0083CF9C /* AppDelegate.m in Sources */,
 				5EC61F031CBF3EAB0083CF9C /* main.m in Sources */,
+				5EC61F371CBF41FB0083CF9C /* LJXPhotoAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
