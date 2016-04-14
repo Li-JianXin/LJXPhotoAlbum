@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC61F031CBF3EAB0083CF9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC61F021CBF3EAB0083CF9C /* main.m */; };
+		5EC61F061CBF3EAB0083CF9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC61F051CBF3EAB0083CF9C /* AppDelegate.m */; };
+		5EC61F091CBF3EAB0083CF9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC61F081CBF3EAB0083CF9C /* ViewController.m */; };
+		5EC61F0C1CBF3EAB0083CF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC61F0A1CBF3EAB0083CF9C /* Main.storyboard */; };
+		5EC61F0E1CBF3EAB0083CF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC61F0D1CBF3EAB0083CF9C /* Assets.xcassets */; };
+		5EC61F111CBF3EAB0083CF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC61F0F1CBF3EAB0083CF9C /* LaunchScreen.storyboard */; };
+		5EC61F1C1CBF3EAB0083CF9C /* LJXPhotoAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC61F1B1CBF3EAB0083CF9C /* LJXPhotoAlbumTests.m */; };
+		5EC61F271CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC61F261CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC61F181CBF3EAB0083CF9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC61EF61CBF3EAB0083CF9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC61EFD1CBF3EAB0083CF9C;
+			remoteInfo = LJXPhotoAlbum;
+		};
+		5EC61F231CBF3EAB0083CF9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC61EF61CBF3EAB0083CF9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC61EFD1CBF3EAB0083CF9C;
+			remoteInfo = LJXPhotoAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EC61EFE1CBF3EAB0083CF9C /* LJXPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJXPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC61F021CBF3EAB0083CF9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EC61F041CBF3EAB0083CF9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EC61F051CBF3EAB0083CF9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EC61F071CBF3EAB0083CF9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EC61F081CBF3EAB0083CF9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EC61F0B1CBF3EAB0083CF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EC61F0D1CBF3EAB0083CF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EC61F101CBF3EAB0083CF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EC61F121CBF3EAB0083CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC61F171CBF3EAB0083CF9C /* LJXPhotoAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJXPhotoAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC61F1B1CBF3EAB0083CF9C /* LJXPhotoAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXPhotoAlbumTests.m; sourceTree = "<group>"; };
+		5EC61F1D1CBF3EAB0083CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC61F221CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJXPhotoAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC61F261CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXPhotoAlbumUITests.m; sourceTree = "<group>"; };
+		5EC61F281CBF3EAB0083CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC61EFB1CBF3EAB0083CF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC61F141CBF3EAB0083CF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC61F1F1CBF3EAB0083CF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC61EF51CBF3EAB0083CF9C = {
+			isa = PBXGroup;
+			children = (
+				5EC61F001CBF3EAB0083CF9C /* LJXPhotoAlbum */,
+				5EC61F1A1CBF3EAB0083CF9C /* LJXPhotoAlbumTests */,
+				5EC61F251CBF3EAB0083CF9C /* LJXPhotoAlbumUITests */,
+				5EC61EFF1CBF3EAB0083CF9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC61EFF1CBF3EAB0083CF9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC61EFE1CBF3EAB0083CF9C /* LJXPhotoAlbum.app */,
+				5EC61F171CBF3EAB0083CF9C /* LJXPhotoAlbumTests.xctest */,
+				5EC61F221CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC61F001CBF3EAB0083CF9C /* LJXPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5EC61F041CBF3EAB0083CF9C /* AppDelegate.h */,
+				5EC61F051CBF3EAB0083CF9C /* AppDelegate.m */,
+				5EC61F071CBF3EAB0083CF9C /* ViewController.h */,
+				5EC61F081CBF3EAB0083CF9C /* ViewController.m */,
+				5EC61F0A1CBF3EAB0083CF9C /* Main.storyboard */,
+				5EC61F0D1CBF3EAB0083CF9C /* Assets.xcassets */,
+				5EC61F0F1CBF3EAB0083CF9C /* LaunchScreen.storyboard */,
+				5EC61F121CBF3EAB0083CF9C /* Info.plist */,
+				5EC61F011CBF3EAB0083CF9C /* Supporting Files */,
+			);
+			path = LJXPhotoAlbum;
+			sourceTree = "<group>";
+		};
+		5EC61F011CBF3EAB0083CF9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EC61F021CBF3EAB0083CF9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EC61F1A1CBF3EAB0083CF9C /* LJXPhotoAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC61F1B1CBF3EAB0083CF9C /* LJXPhotoAlbumTests.m */,
+				5EC61F1D1CBF3EAB0083CF9C /* Info.plist */,
+			);
+			path = LJXPhotoAlbumTests;
+			sourceTree = "<group>";
+		};
+		5EC61F251CBF3EAB0083CF9C /* LJXPhotoAlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC61F261CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.m */,
+				5EC61F281CBF3EAB0083CF9C /* Info.plist */,
+			);
+			path = LJXPhotoAlbumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC61EFD1CBF3EAB0083CF9C /* LJXPhotoAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC61F2B1CBF3EAB0083CF9C /* Build configuration list for PBXNativeTarget "LJXPhotoAlbum" */;
+			buildPhases = (
+				5EC61EFA1CBF3EAB0083CF9C /* Sources */,
+				5EC61EFB1CBF3EAB0083CF9C /* Frameworks */,
+				5EC61EFC1CBF3EAB0083CF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJXPhotoAlbum;
+			productName = LJXPhotoAlbum;
+			productReference = 5EC61EFE1CBF3EAB0083CF9C /* LJXPhotoAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC61F161CBF3EAB0083CF9C /* LJXPhotoAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC61F2E1CBF3EAB0083CF9C /* Build configuration list for PBXNativeTarget "LJXPhotoAlbumTests" */;
+			buildPhases = (
+				5EC61F131CBF3EAB0083CF9C /* Sources */,
+				5EC61F141CBF3EAB0083CF9C /* Frameworks */,
+				5EC61F151CBF3EAB0083CF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC61F191CBF3EAB0083CF9C /* PBXTargetDependency */,
+			);
+			name = LJXPhotoAlbumTests;
+			productName = LJXPhotoAlbumTests;
+			productReference = 5EC61F171CBF3EAB0083CF9C /* LJXPhotoAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EC61F211CBF3EAB0083CF9C /* LJXPhotoAlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC61F311CBF3EAB0083CF9C /* Build configuration list for PBXNativeTarget "LJXPhotoAlbumUITests" */;
+			buildPhases = (
+				5EC61F1E1CBF3EAB0083CF9C /* Sources */,
+				5EC61F1F1CBF3EAB0083CF9C /* Frameworks */,
+				5EC61F201CBF3EAB0083CF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC61F241CBF3EAB0083CF9C /* PBXTargetDependency */,
+			);
+			name = LJXPhotoAlbumUITests;
+			productName = LJXPhotoAlbumUITests;
+			productReference = 5EC61F221CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC61EF61CBF3EAB0083CF9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = m6go.com;
+				TargetAttributes = {
+					5EC61EFD1CBF3EAB0083CF9C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5EC61F161CBF3EAB0083CF9C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5EC61EFD1CBF3EAB0083CF9C;
+					};
+					5EC61F211CBF3EAB0083CF9C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5EC61EFD1CBF3EAB0083CF9C;
+					};
+				};
+			};
+			buildConfigurationList = 5EC61EF91CBF3EAB0083CF9C /* Build configuration list for PBXProject "LJXPhotoAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EC61EF51CBF3EAB0083CF9C;
+			productRefGroup = 5EC61EFF1CBF3EAB0083CF9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC61EFD1CBF3EAB0083CF9C /* LJXPhotoAlbum */,
+				5EC61F161CBF3EAB0083CF9C /* LJXPhotoAlbumTests */,
+				5EC61F211CBF3EAB0083CF9C /* LJXPhotoAlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EC61EFC1CBF3EAB0083CF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC61F111CBF3EAB0083CF9C /* LaunchScreen.storyboard in Resources */,
+				5EC61F0E1CBF3EAB0083CF9C /* Assets.xcassets in Resources */,
+				5EC61F0C1CBF3EAB0083CF9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC61F151CBF3EAB0083CF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC61F201CBF3EAB0083CF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC61EFA1CBF3EAB0083CF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC61F091CBF3EAB0083CF9C /* ViewController.m in Sources */,
+				5EC61F061CBF3EAB0083CF9C /* AppDelegate.m in Sources */,
+				5EC61F031CBF3EAB0083CF9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC61F131CBF3EAB0083CF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC61F1C1CBF3EAB0083CF9C /* LJXPhotoAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC61F1E1CBF3EAB0083CF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC61F271CBF3EAB0083CF9C /* LJXPhotoAlbumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC61F191CBF3EAB0083CF9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC61EFD1CBF3EAB0083CF9C /* LJXPhotoAlbum */;
+			targetProxy = 5EC61F181CBF3EAB0083CF9C /* PBXContainerItemProxy */;
+		};
+		5EC61F241CBF3EAB0083CF9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC61EFD1CBF3EAB0083CF9C /* LJXPhotoAlbum */;
+			targetProxy = 5EC61F231CBF3EAB0083CF9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EC61F0A1CBF3EAB0083CF9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EC61F0B1CBF3EAB0083CF9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EC61F0F1CBF3EAB0083CF9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EC61F101CBF3EAB0083CF9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EC61F291CBF3EAB0083CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EC61F2A1CBF3EAB0083CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC61F2C1CBF3EAB0083CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJXPhotoAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m6go.LJXPhotoAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EC61F2D1CBF3EAB0083CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJXPhotoAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m6go.LJXPhotoAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EC61F2F1CBF3EAB0083CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LJXPhotoAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m6go.LJXPhotoAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJXPhotoAlbum.app/LJXPhotoAlbum";
+			};
+			name = Debug;
+		};
+		5EC61F301CBF3EAB0083CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LJXPhotoAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m6go.LJXPhotoAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJXPhotoAlbum.app/LJXPhotoAlbum";
+			};
+			name = Release;
+		};
+		5EC61F321CBF3EAB0083CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LJXPhotoAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m6go.LJXPhotoAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJXPhotoAlbum;
+			};
+			name = Debug;
+		};
+		5EC61F331CBF3EAB0083CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LJXPhotoAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m6go.LJXPhotoAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJXPhotoAlbum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC61EF91CBF3EAB0083CF9C /* Build configuration list for PBXProject "LJXPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC61F291CBF3EAB0083CF9C /* Debug */,
+				5EC61F2A1CBF3EAB0083CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC61F2B1CBF3EAB0083CF9C /* Build configuration list for PBXNativeTarget "LJXPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC61F2C1CBF3EAB0083CF9C /* Debug */,
+				5EC61F2D1CBF3EAB0083CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EC61F2E1CBF3EAB0083CF9C /* Build configuration list for PBXNativeTarget "LJXPhotoAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC61F2F1CBF3EAB0083CF9C /* Debug */,
+				5EC61F301CBF3EAB0083CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EC61F311CBF3EAB0083CF9C /* Build configuration list for PBXNativeTarget "LJXPhotoAlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC61F321CBF3EAB0083CF9C /* Debug */,
+				5EC61F331CBF3EAB0083CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EC61EF61CBF3EAB0083CF9C /* Project object */;
+}
