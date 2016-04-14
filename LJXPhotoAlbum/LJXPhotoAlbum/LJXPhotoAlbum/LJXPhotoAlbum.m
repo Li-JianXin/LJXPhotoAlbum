@@ -96,7 +96,8 @@
 
 
 #pragma mark - ActionSheet Delegte
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+- (void)actionSheet:(UIActionSheet *)actionSheetn clickedButtonAtIndex:(NSInteger)buttonIndex
+{
     NSInteger sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     if([self imagePickerControlerIsAvailabelToCamera]){
         switch (buttonIndex){
