@@ -26,7 +26,8 @@
 @implementation LJXPhotoAlbum
 
 - (instancetype)init {
-    if ([super init]) {
+    self = [super init];
+    if (self) {
         _picker = [[UIImagePickerController alloc]init];
     }
     return self;
